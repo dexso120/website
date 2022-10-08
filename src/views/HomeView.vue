@@ -10,10 +10,10 @@
 import Character from '@/components/game/Character.vue';
 
 export default {
-  name: 'HomeView',
-  components: {
-    Character,
-}
+    name: 'HomeView',
+    components: {
+      Character,
+  }
 }
 </script>
 
