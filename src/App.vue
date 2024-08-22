@@ -31,9 +31,7 @@
   </div>
 
   <!-- Footer -->
-  <footer>
-    Test footer
-  </footer>
+  <footer>&copy; Copyright 2024 Derrick So</footer>
   
 </template>
 
