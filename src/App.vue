@@ -30,6 +30,10 @@
     <router-view/>
   </div>
 
+  <!-- Footer -->
+  <footer>
+    Test footer
+  </footer>
   
 </template>
 
@@ -48,14 +52,18 @@
   html{
     height: 100%;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #5C8374;
   }
+
+  body{
+    margin: 0;
+  }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  
 }
 
 .navbar{
@@ -63,39 +71,57 @@
   width: auto;
   overflow: hidden;
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
   align-items: center;
 }
 
 nav {
   padding: 20px;
   float: right;
-  height: fit-content;
+  height: 10%;
   width: 30%;
+  display: flex;
+  justify-content: center;
+  position: relative;
   box-sizing: border-box;
 }
 
 nav a {
   font-weight: bold;
   color: white;
-  background-color: #FF8E91;
+  background-color: #092635;
   padding: 15px;
   width: fit-content;
   box-sizing: border-box;
 }
 
 nav a.router-link-exact-active {
-  background-color: #E64146;
+  color: black;
+  background-color: #9EC8B9;
 }
 
 .health-bar{
   float: left;
   text-align: left;
+  height: 10%;
   width: 40%;
+  padding: 10px;
   box-sizing: border-box;
 }
 
 .align-right{
-  margin-left: auto; 
-margin-right: 0;
+  margin-left: 20; 
+  margin-right: 0;
 }
+
+footer { 
+  bottom: 0;
+  color: white;
+  padding: 20px;
+	background-color: #092635; 
+	height: 10px; 
+	width: 100%; 
+	position: fixed; 
+	}
 </style>
