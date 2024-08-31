@@ -42,7 +42,8 @@
       name: 'App',
       components: {
       Progress,
-  }
+  },
+  
 }
 </script>
 
