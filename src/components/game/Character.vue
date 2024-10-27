@@ -1,18 +1,22 @@
 <template>
-    <link href="@/style.css" rel="stylesheet"/>
-    <img class="icon" src="@/assets/stats/profile_pic.jpg"/>
-    <div class="box">
+    
+    <div class="box" id="skill_card">
+      <img class="icon" src="@/assets/stats/profile_pic.jpg"/>
+      <div class="health-bar">
+        <p>HP: 100 <Progress color="green" percent="100" padding="5px" width="100%"></Progress></p>
+        <p>MP: 100 <Progress color="blue" percent="100" padding="5px" width="100%"></Progress></p>
+      </div>
       <div class="level">
         <p>Level: 2</p>
-        <Progress color="#36A1FF" percent="50" padding="10px" width="500px"></Progress>
-        <p>Class: Cyber Security Analyst (Red Team)</p>
+        <Progress color="#36A1FF" percent="50" padding="10px" width="100%"></Progress>
+        <p>Cyber Security Analyst (Red Team)</p>
       </div>
 
       <div class="stats">
         
-        <div id="chartdiv"></div>
+        
         <div id="skills">
-          Skill Tree: 
+          Skill Tree:
         </div>
       </div>
     </div>

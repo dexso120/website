@@ -1,8 +1,6 @@
 <template>
-  <div class="about">
-    <div class="box">
-      <Intro/>
-    </div>
+  <div id="about">
+
   </div>
 </template>
 
