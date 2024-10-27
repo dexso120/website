@@ -1,10 +1,13 @@
 <template>
     <div class="box">
+        <p>Coming Soon...</p>
+        <!--
         <table>
             <tr>
                 <td v-for="tool in tools"><img :src="tool.image" style="height: 50px; width: 50px"></td>
             </tr>
         </table>
+    -->
     </div>
 </template>
 
